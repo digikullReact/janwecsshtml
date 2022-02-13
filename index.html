@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png");
+    background-repeat: no-repeat
+
+}
+
+</style>
+
+</head>
+<body>
+    <input type="text" style="">
+    <table >
+        <thead>
+          <th>
+            NAme
+          </th>
+          
+           <th>
+            Age
+          </th>
+        </thead>
+        <tbody>
+          <td class="td">
+            John
+          </td>
+          <td class="td">
+            9
+          </td>
+        </tbody>
+        </table>
+
+        <button id="btn">
+            Change color
+        </button>
+
+<script>
+var elements=document.getElementsByClassName("td");
+console.log(elements);
+
+
+
+btn.addEventListener("click",function(){
+
+    for(let i=0;i<elements.length;i++){
+        elements[i].style.color="green"  // You have to change the text to 
+
+    }
+
+
+
+})
+
+
+
+</script>
+
+
+</body>
+</html>

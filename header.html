@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header{
+            background-color: burlywood;
+            height: 50px;
+        }
+    
+        #heading{
+            float: right;
+        }
+    
+      ul{
+        list-style-type: none;
+    
+        }
+        ul>li{
+            float: left;
+        }
+    
+    
+        #div{
+            background-color: bisque;
+            height: 50px;
+        }
+    
+        #div2{
+            background-color:pink;
+            height: 50px;
+        }
+    
+       #div2 > #ptag > h1{
+            color: green;
+        }
+    
+    </style>
+
+</head>
+
+
+<body>
+
+    <div id="header">
+
+        <ul>
+            <li>
+                <img width="50px" height="40px" src="https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/w_596,c_limit,q_auto:best,f_auto/fc/3034007-inline-i-applelogo.jpg">
+
+            </li>
+
+            <li>
+                <h3 >Ekart International</h3>
+
+            </li>
+        </ul>
+      
+    </div>
+
+    <div id="div">
+
+        <h1>HEllo World</h1>
+
+
+    </div>
+<!--Child Combinator child selector   ---  >  -->
+    <div id="div2">
+        <div id="ptag">
+            <h1>HEllo  P Earth</h1>
+        </div>
+
+     
+        <h1>HEllo  Earth</h1>
+
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+#content{
+
+  background-color: blue;
+  width: 1200px; /*empheral unit   -->em*/
+  height: 100px;
+  padding: 40px;
+  margin: 40px;
+
+}
+
+#content2{
+
+  background-color: brown;
+  width: 1200px; /*empheral unit   -->em*/
+  height: 100px;
+  text-align: center; 
+  vertical-align: super;
+  text-decoration: underline;
+  font-family: "Sofia", sans-serif;
+
+
+}
+
+
+#heading{
+    font-style: oblique;
+   font-variant: small-caps;
+    
+    font-weight: normal; 
+   
+
+}
+
+#table{
+
+  border: 5px solid blue;
+  width: 200px;
+
+
+
+}
+
+
+td{
+  border: 1px solid black;
+  padding: 20px;
+}
+
+th{
+  border: 1px solid green;
+}
